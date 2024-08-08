@@ -89,6 +89,10 @@ a:hover {
     border-radius: 10px;
 }
 
+.btn:hover {
+    background-color: #1f1f1f;
+}
+
 #headshot-img {
     width: 20em;
 }
