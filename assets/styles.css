@@ -24,6 +24,9 @@ input {
 .navbar {
     background-image: linear-gradient(black, rgba(0, 0, 0, 0.274));
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: end;
     top: 0;
     left: 0;
     width: 100%;
@@ -31,6 +34,10 @@ input {
     color: #fff;
     padding: 10px;
 
+}
+
+.nav-logo {
+    margin-right: auto;
 }
 
 .nav-list {
