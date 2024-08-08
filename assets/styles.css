@@ -16,6 +16,11 @@ main {
     padding: 1em;
 }
 
+input {
+    color: black;
+    text-align: start;
+}
+
 .navbar {
     background-image: linear-gradient(black, rgba(0, 0, 0, 0.274));
     border-radius: 10px;
