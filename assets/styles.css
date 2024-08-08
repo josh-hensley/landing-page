@@ -6,6 +6,7 @@
 
 body {
     background-color: black;
+    padding-top: 70px;
 }
 
 main {
@@ -16,27 +17,37 @@ main {
 }
 
 .navbar {
-    background-color:rgba(80, 80, 80, 0.418);
     background-image: linear-gradient(black, rgba(0, 0, 0, 0.274));
     border-radius: 10px;
-    padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+
 }
 
 .nav-list {
     list-style: none;
-    display: flex;
-    justify-content: end;
+    text-align: end;
 }
 
 .nav-item {
     margin: 0 1em;
+    display: inline;
     font-size: large;
 }
 
 a {
-    color:rgb(255, 255, 255);
+    color:rgb(126, 126, 126);
     text-decoration: none;
     
+}
+
+a:hover {
+    color: white;
 }
 
 .container {
